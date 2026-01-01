@@ -4,9 +4,9 @@
 
 #include <Arduino_LED_Matrix.h>
 
-extern bool *graphic_img[11];
-extern int graphic_width[11];
-extern int graphic_height[11];
+extern bool *graphic_img[];
+extern int graphic_width[];
+extern int graphic_height[];
 
 extern uint8_t frame[8][12];
 
